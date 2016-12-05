@@ -1,0 +1,117 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Rupika microfinance"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Rupika microfinance"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Rupika microfinance"
+
+		[params.navigation.links]
+                        mission   = "Mission"
+			about     = "About"
+			services  = "Services"
+			portfolio = "Gallery"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Our Vision"
+		subtitle   = "To Provide financial support to poor &amp; needy women workers to encourage &amp; endeavour their dream of being an Entrepreneur/microbusiness by providing an Uniquely defined quality of service."
+		buttonText = "Find out more"
+
+     # About section
+	[params.mission]
+		headline    = "Mission!"
+		description = "We at Rupika microfinance have dynamic young team to Support each and every Individual client efficiently."
+
+
+
+	# About section
+	[params.about]
+		headline    = "About Us!"
+		description = "We at Rupika microfinance have dynamic young team to Support each and every Individual client efficiently."
+
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Service"
+            description = "service description"
+
+  [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "service 2"
+			description = "service description!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "service 3"
+            description = "service despcrption."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "service 4"
+            description = "service description!"
+
+ 
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+#	[params.aside]
+#		headline = "Get the Creative Theme for Hugo"
+#
+#		[params.aside.button]
+#			text = "Download now"
+#			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Rupika Microfinance, #3, DK Complex, KHB Colony, Bidar – 585401."
+		phone = "08482-22070"
+		email = "feedback@gmail.com"
+
+	# Google Maps section
+	 [params.location]
+	 	latitude  = "17.9149"
+	 	longitude = "77.5046"
+	 	maps_api_key = ""
+
